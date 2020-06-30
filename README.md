@@ -12,6 +12,7 @@ npm start #запуск проекта локально
 
 ## Основные команды для сборки приложения
 ```
-npm run build #сборка приложения в development mode
+npm run build #сборка приложения 
+#для сборки приложения закомментировать строку //window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() в index.js
 ```
 **Все файлы собранного приложения складываются в папку build в корне приложения**
