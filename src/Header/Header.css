@@ -1,42 +1,32 @@
 .header {
   background-color: #d47f2f;
-  margin-bottom: 25px;
-
-  .subheader {
+  margin-bottom: 25px; }
+  .header .subheader {
     color: #d47f2f;
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 1px;
     background-color: #fff;
-    padding: 20px;
-
-    & > .container {
+    padding: 20px; }
+    .header .subheader > .container {
       display: flex;
       justify-content: center;
-      align-items: center;
-    }
-  }
-
-  .header__body {
-    padding: 30px 0px;
-
-    .header__form {
+      align-items: center; }
+  .header .header__body {
+    padding: 30px 0px; }
+    .header .header__body .header__form {
       width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center;
-
-      .header__input {
+      align-items: center; }
+      .header .header__body .header__form .header__input {
         outline: #f87700;
         border-radius: 25px;
-
         border: none;
         padding: 20px 8px;
         margin-right: 20px;
-        width: 50%;
-      }
-
-      .header_submit-btn {
+        width: 50%; }
+      .header .header__body .header__form .header_submit-btn {
         cursor: pointer;
         outline: none;
         border: none;
@@ -44,14 +34,8 @@
         border-radius: 25px;
         background-color: #ca6b11;
         color: #fff;
-        transition: .5ms all ease-in;
+        transition: .5ms all ease-in; }
+        .header .header__body .header__form .header_submit-btn:hover {
+          background-color: #b96310; }
 
-        &:hover {
-          background-color: #b96310;
-        }
-      }
-    }
-
-
-  }
-}
+/*# sourceMappingURL=Header.css.map */

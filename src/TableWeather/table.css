@@ -1,0 +1,21 @@
+.table-container {
+  margin-top: 25px; }
+
+thead {
+  background-color: #f2f2f2; }
+
+tr .MuiTableCell-head {
+  color: #888888; }
+  tr .MuiTableCell-head:nth-child(1) {
+    display: flex; }
+
+tbody .remove-btn {
+  text-decoration: none;
+  color: #ca6b11;
+  border: 1px solid #ca6b11;
+  border-radius: 25px;
+  padding: 10px 15px; }
+  tbody .remove-btn:hover {
+    background-color: #fcf3ea; }
+
+/*# sourceMappingURL=table.css.map */

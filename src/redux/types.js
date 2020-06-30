@@ -1,0 +1,7 @@
+const ADD_CITY = 'APP/ADD_CITY';
+const DELETE_CITY = 'APP/DELETE_CITY';
+
+export {
+    ADD_CITY,
+    DELETE_CITY
+}
